@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="./styles/styles.css"/>
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <title>Luke Jackson</title>
+</head>
+<body>
+    <!--navbar-->
+    <div class="navbar">
+        <div class="container flex">
+                <h1 class="logo"><a href="index.html">Luke Jackson</a></h1>
+                <ul class = "links">
+                    <li><a href="#skills">My Skills</a></li>
+                    <li><a href="#projects-title">My Work</a></li>
+                    <li><a href="#contact">Hire Me</a></li>
+                </ul>
+                <div class="dropdown">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+        </div>       
+    </div>
+
+    <!--hero-->
+    <div class="hero overlay">
+        <div class = "container flex">
+            <div class = "hero-text">
+                <h1 class = "anitext">Hi, I'm Luke Jackson</h1>
+                <h2 class = "anitext2">I like making websites</h2>
+            </div>
+        </div>
+    </div> 
+    <div class= "button"><a href="#skills"> <svg class="next" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+        <g id="Down-arrow">
+            <path d="M17.2929993,29.7070007c-0.3906994-0.3906002-0.3906994-1.0234013,0-1.4140015
+                c0.3906002-0.3906002,1.0234013-0.3906002,1.4140015,0L32,41.5858994l13.2929993-13.2929001
+                c0.3905983-0.3906002,1.0233994-0.3906002,1.4140015,0C46.902298,28.4883003,47,28.7441998,47,29
+                c0,0.2558994-0.097702,0.5116997-0.2929993,0.7070007l-14,14c-0.3906021,0.3906975-1.0234013,0.3906975-1.4140015,0
+                L17.2929993,29.7070007z"/>
+            <path d="M32,64c17.6730957,0,32-14.3269005,32-32S49.6730957,0,32,0C14.3268003,0,0,14.3268995,0,32S14.3268003,64,32,64z M32,62
+                C15.4579,62,2,48.542099,2,32C2,15.4580002,15.4579,2,32,2s30,13.4580002,30,30C62,48.542099,48.542099,62,32,62z"/>
+        </g>
+        </svg></a>
+       
+    </div>
+
+    <!--skills page-->
+    <section class="skills" id="skills">
+        <div class="skills-text">
+            <h1>SKILLS</h1>
+        </div>
+    
+        <div class="container flex">
+            <div class="element"><img src="images/css.png"><p>CSS</p></div>
+            <div class="element"><img src="images/html.png"><p>HTML</p></div>
+            <div class="element"><img src="images/javascript.png"><p>Javascript</p></div>
+            <div class="element"><img src="images/sass.png"><p>Sass</p></div>
+            <div class="element"><img src="images/java.png"><p>Java</p></div>
+            <div class="element"><img src="images/ps.png"><p>Photoshop</p></div>
+            <div class="element"><img src="images/xd.png"><p>Adobe Xd</p></div>
+            <div class="element"><img src="images/php.png"><p>PHP</p></div>
+        </div> 
+    </section>
+    
+    <!--projects page-->
+    <section class="projects">
+        <div class="transition"></div>
+        <div class="projects-text"  id="projects-title"><h1>PROJECTS</h1></div>
+        <div class="container grid">
+            <div class="card">
+                <div class="card-text">
+                    <h1>Portfolio Website</h1>
+                    <p>Personal website made with responsive design, therefore the site can be used on any platform. Built with Javascript functions, CSS grid, and flex-box design elements.</p>
+                </div>
+                <div class="btn btn-secondary"><a href="#">more...</a></div>
+            </div>
+            <div class="side-picture">
+                    <img src="images/portfolio-site-pic.png">
+            </div>
+        </div>
+        <div class="container grid-2">
+            <div class="side-picture">
+                <img src="images/tic-tac-toe.jpg">
+            </div>
+            <div class="card">
+                <div class="card-text">
+                    <h1>Tic-Tac-Toe Game</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim esse sed reiciendis, consectetur ea optio aliquam quos labore eaque voluptas. Id aut dignissimos deleniti harum perferendis consectetur, cum dolor nulla?</p>
+                </div>
+                <div class="btn btn-secondary"><a href="#">more...</a></div>
+            </div>
+        </div>
+        <div class="container grid-3">
+            <div class="card">
+                <div class="card-text">
+                    <h1>Final Project</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim esse sed reiciendis, consectetur ea optio aliquam quos labore eaque voluptas. Id aut dignissimos deleniti harum perferendis consectetur, cum dolor nulla?</p>
+                </div>
+                <div class="btn btn-secondary"><a href="#">more...</a></div>
+            </div>
+            <div class="side-picture">
+                    <img src="images/final-project-image.jpg">
+            </div>
+        </div>
+    </section>
+    
+    <!--contact-->
+    <footer class = "footer" id="contact">
+        <div class = "container">
+            <div class= "footer-top-text">CONTACT ME</div>
+            <form action = "https://formspree.io/f/xrgrnaky" method="POST" class="flex">
+                <div class="form-control">
+                    <input type="text" name="firstName" placeholder="First Name" required>
+                </div>
+                <div class="form-control">
+                    <input type="text" name="lastName" placeholder="Last Name" required>
+                </div>
+                <div class="form-control">
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-control">
+                    <input type="text" name="message" placeholder="Message" size="100" required>
+                </div>
+                <input type="submit" value="Send" class="btn btn-primary">
+            </form>
+            <div class="resume">
+                <a href="../pdfs/Resume-2021.pdf" class="btn btn-secondary">View My Resume</a>  
+            </div>
+            <div class="social-links flex">
+                <ul class="social-list">
+                    <li class="social-list-item">
+                        <a class="social-list-link" href="https://github.com/LukeJcs">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="social-list-item">
+                        <a class="social-list-link" href="https://www.linkedin.com/in/luke-jackson-li">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                    <li class="social-list-item">
+                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    
+    <script src="app.js"></script>
+</body>
+</html>
